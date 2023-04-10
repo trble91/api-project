@@ -1,10 +1,11 @@
 {
   "name": "api-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node lib/server.js"
+    "start": "node lib/server.js",
+    "dev": "nodemon lib/server.js",
+    "db:seed": "node --experimental-json-modules lib/seed/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
 }
