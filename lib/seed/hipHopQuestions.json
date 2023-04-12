@@ -2,42 +2,42 @@
     {
       "question": "This Hip-Hop Legend, produced Soul4Real's Candy Rain",
       "answer":{
-        "choices": ["Heavy D", "Slick Rick", "Rakim", "Spoonie G"],
-        "correct": "Heavy D"
+        "correct": "Heavy D",
+        "choices": ["Heavy D", "Slick Rick", "Rakim", "Spoonie G"]
       }
     },
     {
       "question": "Who is regarded as the Godfather of Hip-Hop?",
       "answer": {
+        "correct": "DJ Kool Herc",
         "choices": [
           "DJ Mustard",
           "DJ Kool Herc",
           "DJ AM",
           "DJ Jazzy Jeff & The Fresh Prince"
-        ],
-        "correct": "DJ Kool Herc"
+        ]
       }
     },
     {
       "question": "Alongside DJ Run and DMC who else is a member of Run DMC?",
       "answer": {
-        "choices": ["Biz Markie", "Jam Master Jay", "Akon", "DMX"],
-        "correct": "Jam Master Jay"
+        "correct": "Jam Master Jay",
+        "choices": ["Biz Markie", "Jam Master Jay", "Akon", "DMX"]
       }
     },
     {
       "question":
         "The album, Flesh of My Flesh, Blood of My Blood , was released by which hip hop group or artist?",
       "answer": {
-        "choices": ["DMX", "Master P", "Kanye West", "Jay-Z"],
-        "correct": "DMX"
+        "correct": "DMX",
+        "choices": ["DMX", "Master P", "Kanye West", "Jay-Z"]
       }
     },
     {
       "question": "Brad Terrence Jordan is better known as who?",
       "answer": {
-        "choices": ["Trick Daddy", "DMC", "Scarface", "Wiz Khalifa"],
-        "correct": "Scarface"
+        "correct": "Scarface",
+        "choices": ["Trick Daddy", "DMC", "Scarface", "Wiz Khalifa"]
       }
     }
   ]
