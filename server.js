@@ -3,13 +3,13 @@ import express from "express";
 import routes from "./routes/path.js";
 
 const app = express();
-const port = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000
 
 app.use("/api", routes);
 
-db.on("connected", () => {
+db.connection.on("connected", () => {
   console.clear();
-  console.log(chalk.blue("Connected to MongoDB!"));
+  console.log("Connected to MongoDB!");
 
   app.listen(PORT, () => {
     process.env.NODE_ENV === "production"
