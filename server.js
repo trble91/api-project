@@ -5,7 +5,7 @@ import routes from "./routes/path.js";
 const app = express();
 const PORT = process.env.PORT || 3000
 
-app.use("/api", routes);
+app.use("/", routes);
 
 db.connection.on("connected", () => {
   console.clear();
