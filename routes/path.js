@@ -1,4 +1,4 @@
-import router from "express";
+import { Router } from "express";
 import questionRoutes from "../lib/controllers/questions.js";
 
 const router = Router();
